@@ -1,0 +1,521 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container-fluid h2{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* DoctorF.js*/
+
+.add_btn {
+  text-align: right;
+}
+
+.container {
+  overflow: auto;
+}
+
+.heading1 {
+  text-align: center;
+}
+
+/*DocDetails*/
+
+.left_view h3{
+font-size: 20px;
+color: blue;
+}
+
+.left_view h3 span{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.right_view h3{
+font-size: 20px;
+color: blue;
+
+}
+
+.right_view h3 span{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.add_btn_2{
+  text-align: center;
+  
+}
+
+.Back_btn{
+  background-color:green;
+
+}
+
+.back{
+  color:#fff;
+  text-decoration: none;
+}
+
+/*Home*/
+.profile-detail-role{
+  background-color:#fff;
+  color: rgb(21, 143, 31);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: 1px solid rgb(33, 123, 0) ;
+
+}
+
+
+
+#navbarSupportedContent ul li a:hover{
+
+  color: #fff;
+  background: rgb(33, 123, 0);
+}
+
+#navbarSupportedContent ul li a:active{
+  background: rgb(33, 123, 0);
+}
+
+.content-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  
+}
+
+.card{
+  min-height: 220px;
+  width: 200px;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgb(255, 255, 255);
+  flex-direction: column;
+  margin: 10px 4px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.2) ;
+}
+
+.card a{
+ text-decoration: none;
+}
+
+.card:nth-child(1):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(2):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(3):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(4):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(5):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(6):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(7):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+.card:nth-child(8):hover{
+
+  background:rgb(109, 184, 231);
+  width: 270px;
+}
+
+
+.homepage > .button {
+    background: #082340;
+    border: 1px solid rgb(33, 123, 0);
+    color: rgb(33, 123, 0);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.homepage > a {
+  text-decoration: none;
+}
+
+.homepage > .button:hover {
+
+  background:rgb(33, 123, 0) ;
+  width: 110px;
+}
+
+.homepage1 > .button {
+    background: #082340;
+    border: 1px solid rgb(33, 123, 0);
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-left: 1350px;
+    width: 100px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.homepage1 > .button:hover {
+
+  background:rgb(33, 123, 0) ;
+  width: 110px;
+}
+
+.homepage1 > .button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.homepage2 > .button {
+    background: #f21818;
+    border: 1px solid hsl(0, 89%, 52%);
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 120px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.homepage2 > .button:hover {
+  width: 130px;
+}
+
+.homepage2 > .button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Login*/
+
+
+.login {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.homepage a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*Register*/
+.register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.date-time{
+  background:#082340;
+   border: 1px solid rgb(33, 123, 0) ;
+}
+
+.date-time span{
+  color: #f21818;
+}
+.date-time h4{
+  color:#fff;
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.btn-block a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.welcome h3{
+  color: green;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome h4{
+  color: #f21818;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Report*/
+.ReportTable{
+   border: 2px solid #d81414;
+   
+}
+.MReport{
+  font-family: 'Times New Roman', Times, serif;
+  color: #1877f2;
+}
+
+.patientR >button{
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*search*/
+
+.search-form01 > input {
+  width: 350px;
+  margin-left: 1050px;
+  border: 1px solid green;
+}
+
+.search-form01 > button{
+  margin-left: 1300px;
+  border: 1px solid green;
+  background-color: #082340;
+  color: #fff;
+  width: 100px;
+}
+
+
+/*PatientReport*/
+
+.docsDisplay>.table1 >th {
+  background-color: #000;
+  color: #fff;
+}
+
+.flex-container1 >.homepage2>.button{
+
+  margin-right: 1300px;
+}
+
+.flex-container1 >.instascroll > button{
+ background-color: #1877f2;
+  margin-left: 1000px;
+  border: 1 px solid #1877f2;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.flex-container1 >.instascroll > button>a{
+   text-decoration: none;
+   color: #fff;
+   text-decoration: bold;
+}
+
+.flex-container1 >.searchBar{
+  margin-top: 10px;
+  
+}
+
+.flex-container1 >.searchBar>input{
+  width: 400px;
+  border: 1 px solid #077f17;
+}
+
+.table1>thead{
+background-color: #000;
+color: #fff;
+}
+
+.addpatients>input{
+  
+}
+
+.input-data1>input{
+  width: 180px;
+}
+
+.Rbtn1{
+  width: 100px;
+  background-color: #aa0101;
+  color: #fff;
+  border: 1px solid #aa0101 ;
+}
+.Rbtn2{
+  width: 100px;
+  background-color: #024399;
+  color: #fff;
+  border: 1px solid #024399 ;
+}
+
+.Report-Button{
+
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 1100px;
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+}
+
+.Report-Button:hover{
+  background-color: green;
+}
+
+.PRPDF-btn> .Report-Button{
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.ptient-Details{
+  color: #1877f2;
+  border: 1px solid green;
+}
+
+.divideLeft{
+  float: left;
+  margin-left:550px ;
+}
+
+.divideRight{
+  float: right;
+  margin-right:550px ;
+}
+
+.addpatients>button{
+  background-color: #1877f2;
+  margin-left: 680px;
+  color: white;
+  border: #1877f2;
+}
