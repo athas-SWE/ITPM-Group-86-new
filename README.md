@@ -31,7 +31,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 Project Name - Student Performance Tracking System 
-A student performance tracking software can help teachers and administrators monitor and 
+A student performance tracking software can help teache rs and administrators monitor and 
 evaluate student progress and identify areas where students may need additional support or 
 intervention.
 
