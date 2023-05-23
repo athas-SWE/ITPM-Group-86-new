@@ -42,3 +42,6 @@ Member 3 - IT20302412 - Mr. Jathukoby V. K (Jathukoby)
 Member 4 - IT20645434 - Mr. Khan M.A.M.A (Khan)
 Member 5 - IT20645502 - Mr. Basik M.B.A (Basik)
 Technologies used - Frontend:  Html,CSS ,React (Framework) Backend: Node JS,Express.js Database: MongoDB , Main Language: JavaScript
+
+
+
